@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>bytestash</Name>
+  <Repository>ghcr.io/jordan-dalby/bytestash</Repository>
+  <Registry>https://ghcr.io</Registry>
+  <Network>host</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/jordan-dalby/bytestash</Support>
+  <Project>Code snippet manager for storing and organizing code snippets</Project>
+  <Overview>ByteStash is a web-based application for managing and organizing code snippets with a clean, modern interface. Features include syntax highlighting, categorization, and easy sharing.</Overview>
+  <Category>Productivity: Tools:</Category>
+  <WebUI>http://[IP]:[PORT:5000]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/jordan-dalby/ByteStash/refs/heads/main/client/public/logo512.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1729719082</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Web Interface Port" Target="5000" Default="5000" Mode="tcp" Description="Port for web interface. Change the left number if you want to use a different port to access the interface." Type="Port" Display="always" Required="true" Mask="false">5000</Config>
+  <Config Name="Snippets Directory" Target="/data/snippets" Default="/mnt/user/appdata/bytestash/snippets" Mode="rw" Description="Directory where code snippets will be stored" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/bytestash/snippets</Config>
+</Container>
