@@ -8,8 +8,8 @@
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support>https://github.com/jordan-dalby/bytestash</Support>
-  <Project>Code snippet manager for storing and organizing code snippets</Project>
-  <Overview>ByteStash is a web-based application for managing and organizing code snippets with a clean, modern interface. Features include syntax highlighting, categorization, and easy sharing.</Overview>
+  <Project>Code snippet manager for storing and organising code snippets</Project>
+  <Overview>ByteStash is a web-based application for managing and organising code snippets with a clean, modern interface. Features include syntax highlighting, categorisation, a full-fledged code editor.</Overview>
   <Category>Productivity: Tools:</Category>
   <WebUI>http://[IP]:[PORT:5000]</WebUI>
   <TemplateURL/>
@@ -21,6 +21,9 @@
   <DonateText/>
   <DonateLink/>
   <Requires/>
+  <Maintainer>
+    <WebPage>https://github.com/jordan-dalby</WebPage>
+  </Maintainer>
   <Config Name="Web Interface Port" Target="5000" Default="5000" Mode="tcp" Description="Port for web interface. Change the left number if you want to use a different port to access the interface." Type="Port" Display="always" Required="true" Mask="false">5000</Config>
   <Config Name="Snippets Directory" Target="/data/snippets" Default="/mnt/user/appdata/bytestash/snippets" Mode="rw" Description="Directory where code snippets will be stored" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/bytestash/snippets</Config>
 </Container>
