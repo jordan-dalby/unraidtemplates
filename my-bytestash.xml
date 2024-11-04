@@ -22,7 +22,7 @@
   <DonateLink/>
   <Requires/>
   <Config Name="PORT" Target="PORT" Default="5000" Mode="" Description="Port for web interface" Type="Variable" Display="always" Required="true" Mask="false">5000</Config>
-  <Config Name="PORT" Target="5000" Default="5000" Mode="tcp" Description="Use the same port as above" Type="Port" Display="always" Required="false" Mask="false">5000</Config>
+  <Config Name="Port" Target="5000" Default="5000" Mode="tcp" Description="Use the same port as above" Type="Port" Display="always" Required="true" Mask="false">5000</Config>
   <Config Name="SNIPPET_DIRECTORY" Target="/data/snippets" Default="/mnt/user/appdata/bytestash/snippets" Mode="rw" Description="Directory where code snippets will be stored" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/bytestash/snippets</Config>
   <Config Name="BASE_PATH" Target="BASE_PATH" Default="" Mode="" Description="Which base path should be used? E.g. /bytestash links to&#13;&#10;http://[IP]:[PORT]/bytestash/. Always start with a forward slash. Leave empty if not required." Type="Variable" Display="always" Required="false" Mask="false"></Config>
   <Config Name="AUTH_USERNAME" Target="AUTH_USERNAME" Default="" Mode="" Description="Leave empty for no authentication." Type="Variable" Display="always" Required="false" Mask="false">test</Config>
