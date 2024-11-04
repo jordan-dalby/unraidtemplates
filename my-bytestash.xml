@@ -23,7 +23,6 @@
   <Requires/>
   <Config Name="WebUI Port" Target="5000" Default="5000" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">5000</Config>
   <Config Name="SNIPPET_DIRECTORY" Target="/data/snippets" Default="/mnt/user/appdata/bytestash/snippets" Mode="rw" Description="Directory where code snippets will be stored" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/bytestash/snippets</Config>
-  <Config Name="BASE_PATH" Target="BASE_PATH" Default="" Mode="" Description="Which base path should be used? E.g. /bytestash links to&#13;&#10;http://[IP]:[PORT]/bytestash/. Always start with a forward slash. Leave empty if not required." Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="AUTH_USERNAME" Target="AUTH_USERNAME" Default="" Mode="" Description="Leave empty for no authentication." Type="Variable" Display="always" Required="false" Mask="false">test</Config>
   <Config Name="AUTH_PASSWORD" Target="AUTH_PASSWORD" Default="" Mode="" Description="Leave empty for no authentication." Type="Variable" Display="always" Required="false" Mask="false">test</Config>
   <Config Name="JWT_SECRET" Target="JWT_SECRET" Default="" Mode="" Description="Used for authentication, generate your own secure JWT secret and put it here" Type="Variable" Display="always" Required="false" Mask="false"/>
