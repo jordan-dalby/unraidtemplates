@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>ByteStash</Name>
-  <Repository>ghcr.io/jordan-dalby/bytestash</Repository>
+  <Repository>ghcr.io/jordan-dalby/bytestash:latest</Repository>
   <Registry>https://ghcr.io</Registry>
   <Network>host</Network>
   <MyIP/>
