@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>ByteStash</Name>
+  <Name>bytestash</Name>
   <Repository>ghcr.io/jordan-dalby/bytestash:latest</Repository>
   <Registry>https://ghcr.io</Registry>
   <Network>host</Network>
@@ -8,22 +8,25 @@
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support>https://github.com/jordan-dalby/bytestash</Support>
-  <Project>Code snippet manager for storing and organising code snippets</Project>
+  <Project/>
   <Overview>ByteStash is a web-based application for managing and organising code snippets with a clean, modern interface. Features include syntax highlighting, categorisation, a full-fledged code editor.</Overview>
-  <Category>Productivity: Tools:</Category>
+  <Category>Productivity: Tools:Utilities</Category>
   <WebUI>http://[IP]:[PORT:5000]</WebUI>
-  <TemplateURL/>
+  <TemplateURL>https://raw.githubusercontent.com/jordan-dalby/unraidtemplates/master/my-bytestash.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/jordan-dalby/ByteStash/refs/heads/main/client/public/logo512.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1729719082</DateInstalled>
+  <DateInstalled>1730718517</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
-  <Maintainer>
-    <WebPage>https://github.com/jordan-dalby</WebPage>
-  </Maintainer>
-  <Config Name="Web Interface Port" Target="5000" Default="5000" Mode="tcp" Description="Port for web interface. Change the left number if you want to use a different port to access the interface." Type="Port" Display="always" Required="true" Mask="false">5000</Config>
-  <Config Name="Snippets Directory" Target="/data/snippets" Default="/mnt/user/appdata/bytestash/snippets" Mode="rw" Description="Directory where code snippets will be stored" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/bytestash/snippets</Config>
+  <Config Name="PORT" Target="PORT" Default="5000" Mode="" Description="Port for web interface" Type="Variable" Display="always" Required="true" Mask="false">5000</Config>
+  <Config Name="PORT" Target="5000" Default="5000" Mode="tcp" Description="Use the same port as above" Type="Port" Display="always" Required="false" Mask="false">5000</Config>
+  <Config Name="SNIPPET_DIRECTORY" Target="/data/snippets" Default="/mnt/user/appdata/bytestash/snippets" Mode="rw" Description="Directory where code snippets will be stored" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/bytestash/snippets</Config>
+  <Config Name="BASE_PATH" Target="BASE_PATH" Default="" Mode="" Description="Which base path should be used? E.g. /bytestash links to&#13;&#10;http://[IP]:[PORT]/bytestash/. Always start with a forward slash. Leave empty if not required." Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="AUTH_USERNAME" Target="AUTH_USERNAME" Default="" Mode="" Description="Leave empty for no authentication." Type="Variable" Display="always" Required="false" Mask="false">test</Config>
+  <Config Name="AUTH_PASSWORD" Target="AUTH_PASSWORD" Default="" Mode="" Description="Leave empty for no authentication." Type="Variable" Display="always" Required="false" Mask="false">test</Config>
+  <Config Name="JWT_SECRET" Target="JWT_SECRET" Default="" Mode="" Description="Used for authentication, generate your own secure JWT secret and put it here" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="TOKEN_EXPIRY" Target="TOKEN_EXPIRY" Default="" Mode="" Description="How long the token lasts, examples: 24h, 7d, 2w" Type="Variable" Display="always" Required="false" Mask="false">24h</Config>
 </Container>
