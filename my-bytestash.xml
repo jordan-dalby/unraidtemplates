@@ -18,8 +18,8 @@
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1732288761</DateInstalled>
-  <DonateText/>
-  <DonateLink/>
+  <DonateText>Donations are not necessary, but are greatly appreciated.</DonateText>
+  <DonateLink>https://ko-fi.com/zalosath</DonateLink>
   <Requires/>
   <Config Name="WebUI Port" Target="5000" Default="5000" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">5000</Config>
   <Config Name="SNIPPET_DIRECTORY" Target="/data/snippets" Default="/mnt/user/appdata/bytestash/snippets" Mode="rw" Description="Directory where code snippets will be stored" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/bytestash/snippets</Config>
