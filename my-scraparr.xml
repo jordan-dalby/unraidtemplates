@@ -13,7 +13,7 @@
   <Category>Tools: Status:Stable</Category>
   <WebUI>http://[IP]:[PORT:7100]/metrics</WebUI>
   <TemplateURL/>
-  <Icon>https://camo.githubusercontent.com/b889c3e74805fb05e803c0edc829c0a9e907a169c2017c9bcc53e00f36d3402a/68747470733a2f2f73637261706172722e7468656366752e64652f73637261706172725f6c6f676f2e737667</Icon>
+  <Icon>https://raw.githubusercontent.com/jordan-dalby/unraidtemplates/refs/heads/main/images/scraparr.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
