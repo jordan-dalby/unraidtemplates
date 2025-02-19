@@ -21,6 +21,6 @@
   <DonateText/>
   <DonateLink/>
   <Requires/>
-  <Config Name="CONFIG_PATH" Target="/scraparr/config.cnf" Default="/mnt/user/appdata/scraparr/config.cnf" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/scraparr/config.cnf</Config>
+  <Config Name="CONFIG_PATH" Target="/scraparr/config/" Default="/mnt/user/appdata/scraparr/config/" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/scraparr/config/</Config>
   <Config Name="WEB_UI" Target="7100" Default="7100" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">7100</Config>
 </Container>
