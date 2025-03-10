@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>DollarDollar Bill Y'All</Name>
+  <Repository>harung43/dollardollar:latest</Repository>
+  <Registry/>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/harung1993/dollardollar</Support>
+  <Project>https://github.com/harung1993/dollardollar</Project>
+  <Overview>Docker container for DollarDollar application.</Overview>
+  <Category>Tools: Other:</Category>
+  <WebUI>http://[IP]:[PORT:5006]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/jordan-dalby/unraidtemplates/refs/heads/main/images/dollardollar.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1741626879</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Host Port 1" Target="5001" Default="5006" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">5006</Config>
+  <Config Name="Key 1" Target="DB_USER" Default="postgres" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">dollardollar</Config>
+  <Config Name="Key 2" Target="DB_PASSWORD" Default="your_secure_postgres_password" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">dollardollar</Config>
+  <Config Name="Key 3" Target="DB_NAME" Default="dollardollar" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">dollardollar</Config>
+  <Config Name="Key 4" Target="SECRET_KEY" Default="your_very_long_random_secret_key" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="Key 5" Target="DISABLE_SIGNUPS" Default="False" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">False</Config>
+  <Config Name="Key 6" Target="DEBUG" Default="False" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">True</Config>
+  <Config Name="Key 7" Target="LOG_LEVEL" Default="INFO" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">INFO</Config>
+  <Config Name="Key 8" Target="MAIL_SERVER" Default="smtp.gmail.com" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">smtp.gmail.com</Config>
+  <Config Name="Key 9" Target="MAIL_PORT" Default="587" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">587</Config>
+  <Config Name="Key 10" Target="MAIL_USE_TLS" Default="True" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">True</Config>
+  <Config Name="Key 11" Target="MAIL_USE_SSL" Default="False" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">False</Config>
+  <Config Name="Key 12" Target="MAIL_USERNAME" Default="your_email@gmail.com" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">your_email@gmail.com</Config>
+  <Config Name="Key 13" Target="MAIL_PASSWORD" Default="your_app_password" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">your_app_password</Config>
+  <Config Name="Key 14" Target="MAIL_DEFAULT_SENDER" Default="your_email@gmail.com" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">your_email@gmail.com</Config>
+</Container>
