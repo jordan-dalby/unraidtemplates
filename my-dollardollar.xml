@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>DollarDollar Bill Y'All</Name>
+  <Name>DollarDollar</Name>
   <Repository>harung43/dollardollar:latest</Repository>
   <Registry/>
   <Network>bridge</Network>
@@ -21,19 +21,19 @@
   <DonateText/>
   <DonateLink/>
   <Requires/>
-  <Config Name="Host Port 1" Target="5001" Default="5006" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">5006</Config>
-  <Config Name="Key 1" Target="DB_USER" Default="postgres" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">dollardollar</Config>
-  <Config Name="Key 2" Target="DB_PASSWORD" Default="your_secure_postgres_password" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">dollardollar</Config>
-  <Config Name="Key 3" Target="DB_NAME" Default="dollardollar" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">dollardollar</Config>
-  <Config Name="Key 4" Target="SECRET_KEY" Default="your_very_long_random_secret_key" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
-  <Config Name="Key 5" Target="DISABLE_SIGNUPS" Default="False" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">False</Config>
-  <Config Name="Key 6" Target="DEBUG" Default="False" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">True</Config>
-  <Config Name="Key 7" Target="LOG_LEVEL" Default="INFO" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">INFO</Config>
-  <Config Name="Key 8" Target="MAIL_SERVER" Default="smtp.gmail.com" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">smtp.gmail.com</Config>
-  <Config Name="Key 9" Target="MAIL_PORT" Default="587" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">587</Config>
-  <Config Name="Key 10" Target="MAIL_USE_TLS" Default="True" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">True</Config>
-  <Config Name="Key 11" Target="MAIL_USE_SSL" Default="False" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">False</Config>
-  <Config Name="Key 12" Target="MAIL_USERNAME" Default="your_email@gmail.com" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">your_email@gmail.com</Config>
-  <Config Name="Key 13" Target="MAIL_PASSWORD" Default="your_app_password" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">your_app_password</Config>
-  <Config Name="Key 14" Target="MAIL_DEFAULT_SENDER" Default="your_email@gmail.com" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">your_email@gmail.com</Config>
+  <Config Name="WEB_UI" Target="5001" Default="5006" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">5006</Config>
+  <Config Name="DB_USER" Target="DB_USER" Default="postgres" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">dollardollar</Config>
+  <Config Name="DB_PASSWORD" Target="DB_PASSWORD" Default="your_secure_postgres_password" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">dollardollar</Config>
+  <Config Name="DB_NAME" Target="DB_NAME" Default="dollardollar" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">dollardollar</Config>
+  <Config Name="SECRET_KEY" Target="SECRET_KEY" Default="your_very_long_random_secret_key" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="DISABLE_SIGNUPS" Target="DISABLE_SIGNUPS" Default="False" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">False</Config>
+  <Config Name="DEBUG" Target="DEBUG" Default="False" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">True</Config>
+  <Config Name="LOG_LEVEL" Target="LOG_LEVEL" Default="INFO" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">INFO</Config>
+  <Config Name="MAIL_SERVER" Target="MAIL_SERVER" Default="smtp.gmail.com" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">smtp.gmail.com</Config>
+  <Config Name="MAIL_PORT" Target="MAIL_PORT" Default="587" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">587</Config>
+  <Config Name="MAIL_USE_TLS" Target="MAIL_USE_TLS" Default="True" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">True</Config>
+  <Config Name="MAIL_USE_SSL" Target="MAIL_USE_SSL" Default="False" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">False</Config>
+  <Config Name="MAIL_USERNAME" Target="MAIL_USERNAME" Default="your_email@gmail.com" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">your_email@gmail.com</Config>
+  <Config Name="MAIL_PASSWORD" Target="MAIL_PASSWORD" Default="your_app_password" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">your_app_password</Config>
+  <Config Name="MAIL_DEFAULT_SENDER" Target="MAIL_DEFAULT_SENDER" Default="your_email@gmail.com" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">your_email@gmail.com</Config>
 </Container>
