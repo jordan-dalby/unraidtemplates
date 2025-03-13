@@ -21,7 +21,7 @@
   <DonateText/>
   <DonateLink/>
   <Requires/>
-  <Config Name="WEB_UI" Target="5001" Default="5006" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">5006</Config>
+  <Config Name="WEB_UI" Target="5006" Default="5006" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">5006</Config>
   <Config Name="DB_USER" Target="DB_USER" Default="postgres" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">dollardollar</Config>
   <Config Name="DB_PASSWORD" Target="DB_PASSWORD" Default="your_secure_postgres_password" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">dollardollar</Config>
   <Config Name="DB_NAME" Target="DB_NAME" Default="dollardollar" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">dollardollar</Config>
