@@ -22,9 +22,7 @@
   <DonateLink/>
   <Requires/>
   <Config Name="WEB_UI" Target="5006" Default="5006" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">5006</Config>
-  <Config Name="DB_USER" Target="DB_USER" Default="postgres" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">dollardollar</Config>
-  <Config Name="DB_PASSWORD" Target="DB_PASSWORD" Default="your_secure_postgres_password" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">dollardollar</Config>
-  <Config Name="DB_NAME" Target="DB_NAME" Default="dollardollar" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">dollardollar</Config>
+  <Config Name="SQLALCHEMY_DATABASE_URI" Target="SQLALCHEMY_DATABASE_URI" Default="postgresql://your_db_user:your_db_pass@your_db_host:5432/your_db_name" Mode="" Description="Replace your_ with your postgresql details." Type="Variable" Display="always" Required="true" Mask="false">postgresql://your_db_user:your_db_pass@your_db_host:5432/your_db_name</Config>
   <Config Name="SECRET_KEY" Target="SECRET_KEY" Default="your_very_long_random_secret_key" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
   <Config Name="DISABLE_SIGNUPS" Target="DISABLE_SIGNUPS" Default="False" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">False</Config>
   <Config Name="DEBUG" Target="DEBUG" Default="False" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">True</Config>
